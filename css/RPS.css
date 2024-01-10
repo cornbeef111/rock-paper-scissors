@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: arial;
+}
+.gameTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.moveIcon{
+    height: 50px;
+}
+.moveBtn{
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.resultDesign{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.scoreDesign{
+    margin-top: 50px;
+}
+.resetDesign{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+
+}
