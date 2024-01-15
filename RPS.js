@@ -5,7 +5,25 @@
                 losses: 0,
                 ties: 0
           };
-        
+        let isAutoPlay = false;
+        let intervalId;
+
+        function autoPlay(){
+            if(!isAutoPlay){
+               intervalId = setInterval(function(){
+                
+                    rockClick();
+                    paperClick();
+                    scissorsClick();
+                  }, 1000);
+                  isAutoPlay = true;
+            }else{
+                clearInterval(intervalId);
+                isAutoPlay = false;
+            }
+           
+        }
+
 
 
         function rockClick(){

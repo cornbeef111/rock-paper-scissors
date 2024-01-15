@@ -27,7 +27,8 @@ body{
 .scoreDesign{
     margin-top: 50px;
 }
-.resetDesign{
+.resetDesign,
+.auto-play-button{
     background-color: white;
     border: none;
     font-size: 15px;
